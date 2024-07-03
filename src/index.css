@@ -82,17 +82,27 @@ button:focus-visible {
   border-radius: 10px;
 
 }
+.task-input{
+  margin-right: 10px;
+  padding-top: 15px;
+}
+
 .add{
   background-color: green;
   color: white;
-  height: 40px;
+  padding: 4px;
+  
 
 }
-.edit{
+.edit, .remove{
   background-color: red;
   color: white;
-}
-.remove{
-  background-color: red;
-  color:white;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: small;
+  margin-right: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
